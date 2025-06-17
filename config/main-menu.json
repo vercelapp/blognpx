@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "name": "About",
+    "link": "/about"
+  },
+  {
+    "name": "Archive",
+    "link": "/archive"
+  },
+  {
+    "name": "Pages",
+    "submenu": [
+      {
+        "name": "Privacy Policy",
+        "link": "/privacy"
+      },
+      {
+        "name": "Terms and Conditions",
+        "link": "/terms"
+      }
+    ]
+  },
+  {
+    "name": "Contact",
+    "link": "/contact"
+  }
+]
