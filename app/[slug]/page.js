@@ -15,6 +15,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+export const runtime = 'edge';
+
 export async function generateMetadata({ params }) {
   const slug = params.slug;
   const currentPost = allPosts.find((post) => post.slug === slug);
