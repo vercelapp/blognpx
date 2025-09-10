@@ -8,6 +8,8 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
+export const runtime = 'edge';
+
 export async function generateMetadata({ params }) {
   const slug = params.slug;
   const currentAuthor = allAuthors.find((author) => author.slug === slug);
