@@ -7,6 +7,8 @@ import styles from "@/styles/modules/Style.module.scss";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+export const runtime = 'edge';
+
 export async function generateMetadata({ params }) {
   const slug = params.category;
   const categories = popularCategories(allPosts);
